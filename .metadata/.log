@@ -1,0 +1,291 @@
+!SESSION 2019-11-06 13:52:28.393 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/zhongliu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/zhongliu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-11-06 13:52:33.104
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-11-06 13:53:33.401
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.ui 2 0 2019-11-06 13:53:34.441
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-11-06 13:53:34.441
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-06 13:53:34.716
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-11-06 13:53:35.489
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-11-06 13:53:35.508
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface.text 2 0 2019-11-06 13:53:38.114
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-11-06 13:53:42.515
+!MESSAGE Current version of Engine is not compatible with this version of CodeMix UI
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-11-06 13:53:42.897
+!MESSAGE Currently installed CodeMix Engine is newer than the one supported by this version of CodeMix or another CodeMix. Please apply an update to your CodeMix plug-in to avoid possible incompatibility issues.
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.313
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code, 3.1.0.201904242040, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code_3.1.0.201904242040.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.314
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.angular, 3.1.0.201904242040, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.angular_3.1.0.201904242040.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.314
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.angular.ui, 3.1.0.201904052020, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.angular.ui_3.1.0.201904052020.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.315
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.codemining, 3.0.0.201903181815, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.codemining_3.0.0.201903181815.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.315
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.common.core, 3.1.0.201904032131, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.common.core_3.1.0.201904032131.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.315
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.core, 3.1.0.201904111446, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.core_3.1.0.201904111446.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.316
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.debug, 3.1.0.201904092218, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.debug_3.1.0.201904092218.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.316
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.engine.app.macos, 3.1.0.201904101748, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.engine.app.macos_3.1.0.201904101748, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.316
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.engine.macos, 3.0.0.201903151306, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.engine.macos_3.0.0.201903151306, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.316
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.evergreen, 3.0.0.201903061401, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.evergreen_3.0.0.201903061401.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.317
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.livechat.core, 3.1.0.201904032131, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.livechat.core_3.1.0.201904032131.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.317
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.livechat.ui, 3.1.0.201904051726, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.livechat.ui_3.1.0.201904051726.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.317
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.livepreview, 3.1.0.201904242040, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.livepreview_3.1.0.201904242040.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.317
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.minimap, 0.9.0.201808292038, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.minimap_0.9.0.201808292038.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.317
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.server, 2.0.0.201810101658, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.server_2.0.0.201810101658.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.318
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.server.ui, 3.0.0.201903151306, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.server.ui_3.0.0.201903151306.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.318
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.slack, 2.0.0.201809141953, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.slack_2.0.0.201809141953.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.318
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.terminal.plus.contributors, 2.0.0.201810101718, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.terminal.plus.contributors_2.0.0.201810101718.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.318
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.ui, 3.1.0.201904242040, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.ui_3.1.0.201904242040.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.319
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.ui.terminal.plus, 3.1.0.201904092024, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.ui.terminal.plus_3.1.0.201904092024.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.319
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.ui.welcome, 3.1.0.201904092331, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.ui.welcome_3.1.0.201904092331.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.319
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.code.webicons, 3.0.0.201901311854, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.code.webicons_3.0.0.201901311854.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.319
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.core.common.platform, 13.0.2.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.core.common.platform_13.0.2.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.319
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.inlinesearch, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.inlinesearch_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.320
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.intro.popups, 1.0.0.201904091357, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.intro.popups_1.0.0.201904091357.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.320
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.meexplorer, 13.0.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.meexplorer_13.0.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.320
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.meexplorer.jdt, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.meexplorer.jdt_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.320
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.monitor, 13.0.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.monitor_13.0.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.321
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.news, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.news_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.321
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.notifications, 3.0.0.201903262131, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.notifications_3.0.0.201903262131.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.321
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.patches, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.patches_1.11.0.201903292252.jar, startLevel=2, toBeStarted=true)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.322
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.startup, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.startup_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.322
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.startup.workspace, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.startup.workspace_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.322
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.base, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.base_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.323
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.base.mac, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.base.mac_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.323
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.core, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.core_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.323
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.css, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.css_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.323
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.epl, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.epl_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.324
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.scrollbar, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.scrollbar_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.324
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.scrollbar.mac, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.scrollbar.mac_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.324
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.theming.ui, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.theming.ui_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.325
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.tutorial.core, 3.1.0.201904101748, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.tutorial.core_3.1.0.201904101748.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.325
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.tutorial.ui, 3.1.0.201904101403, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.tutorial.ui_3.1.0.201904101403.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.326
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.ui.common.platform, 13.0.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.ui.common.platform_13.0.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.326
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.webclipse.evergreen, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.webclipse.evergreen_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.327
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipse.webicons, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipse.webicons_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 1 0 2019-11-06 13:53:54.327
+!MESSAGE Obsolete bundle detected in bundles.info: BundleInfo(com.genuitec.eclipsecolortheme.api, 1.11.0.201903292252, location=file:/Users/zhongliu/.p2/pool/plugins/com.genuitec.eclipsecolortheme.api_1.11.0.201903292252.jar, startLevel=4, toBeStarted=false)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-11-06 13:53:54.332
+!MESSAGE Fixed issues detected in bundles.info, removed 47 entries
+
+!ENTRY org.eclipse.ui 4 0 2019-11-06 13:54:03.402
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:456)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4102)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-11-06 13:54:03.406
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:456)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4102)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.jface 2 0 2019-11-06 13:54:15.696
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-06 13:54:15.696
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.cocoa.closeDialog,Close Dialog,
+		Closes the active Dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cfbb062,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@309b4b89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.ide 4 0 2019-11-06 13:54:23.114
+!MESSAGE Could not import project located at /Users/zhongliu/Desktop/NEU/5100/finalProject_0425
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /Users/zhongliu/Desktop/NEU/5100/finalProject_0425
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:565)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:252)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:604)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:552)
+	... 2 more

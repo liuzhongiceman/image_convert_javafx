@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.shape.Box?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            id="borderPane" fx:id="borderPane" fx:controller="sample.Controller" stylesheets="@style.css" >
+<!--top section-->
+    <top>
+        <VBox styleClass="header-section" >
+        <GridPane >
+                <!--logo-->
+                <ImageView fitHeight="145.0" fitWidth="200.0"
+                           pickOnBounds="true" preserveRatio="true"
+                            GridPane.rowIndex="0" GridPane.columnIndex="0">
+                        <Image url="@../image/6390172711911424.png" />
+                </ImageView>
+            <ImageView fitHeight="145.0" fitWidth="400.0"
+                       pickOnBounds="true" preserveRatio="true"
+                       GridPane.rowIndex="0" GridPane.columnIndex="1">
+                <Image url="@../image/Calendar-Easy-as-123.jpg" />
+            </ImageView>
+
+                <BorderPane GridPane.rowIndex="0" GridPane.columnIndex="2">
+                    <!--as easy as 123 text-->
+                    <center>
+
+                        <ImageView fitHeight="145.0" fitWidth="400.0"
+                                   pickOnBounds="true" preserveRatio="true"
+                                  >
+                            <Image url="@../image/privacy.png" />
+                        </ImageView>
+                    </center>
+                </BorderPane>
+
+        </GridPane>
+        </VBox>
+    </top>
+<!--end of top section-->
+
+    <!--left section-->
+    <left>
+        <VBox styleClass="left-section" alignment="CENTER" onMouseEntered="#numbericOnly">
+        <GridPane  alignment="BOTTOM_CENTER" hgap="20" minHeight="300" maxWidth="300" minWidth="300" vgap="10">
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" spacing="20">
+                <ImageView fitWidth="50" fitHeight="50" >
+                    <Image url="@/image/one.png" />
+                </ImageView>
+                <Button id="uploadBtn" fx:id="uploadBtn" alignment="CENTER" prefHeight="50" prefWidth="200"
+                        text="Upload Image"  onAction="#uploadHandle"
+                        onMouseEntered="#uploadbuttonTextColorEnter" onMouseExited="#uploadbuttonTextColorExit">
+                    <graphic>
+                        <ImageView fitHeight="30" fitWidth="30"
+                                   pickOnBounds="true" preserveRatio="true">
+                            <Image url="@/image/1703930.png" />
+                        </ImageView>
+                    </graphic>
+                </Button>
+
+            </HBox>
+
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="1" spacing="20">
+                <ImageView fitWidth="50" fitHeight="50" >
+                    <Image url="@/image/two.png" />
+                </ImageView>
+
+                <VBox GridPane.columnIndex="0" GridPane.rowIndex="1" spacing="10">
+
+                    <GridPane vgap="10" hgap="10">
+                        <ChoiceBox fx:id="choiceBox" id="choiceBox"  prefHeight="50.0"  value="jpg" prefWidth="200"
+                                   GridPane.rowIndex="0" GridPane.columnIndex="0"
+                                   onMouseEntered="#choiceBoxColorChangeEnter"
+                                   onMouseExited="#choiceBoxColorChangeExit">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="jpg" />
+                                    <String fx:value="jpeg" />
+                                    <String fx:value="gif" />
+                                    <String fx:value="png" />
+                                    <String fx:value="psd" />
+                                </FXCollections>
+                            </items>
+                        </ChoiceBox>
+                        <Label fx:id="chooseFormat" id="chooseFormat" text="Choose Convert Format"
+                               GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+
+                    </GridPane>
+
+                    <GridPane vgap="10" hgap="10" prefWidth="200" >
+
+                        <TextField fx:id="textWidth"  id="textWidth" prefWidth="100" promptText="width"
+                                   GridPane.rowIndex="0" GridPane.columnIndex="0"
+                                   onMouseExited="#checkNumValid" onMouseEntered="#clearNumValid"/>
+
+                        <TextField fx:id="textHeight"  id="textHeight" prefWidth="100" promptText="height"
+                                   GridPane.rowIndex="0" GridPane.columnIndex="1"
+                                   onMouseExited="#checkNumValid" onMouseEntered="#clearNumValid"/>
+                        <Label fx:id="errDisplay" id="errDisplay" text="invalid number!!!" prefWidth="100"
+                               maxWidth="200"
+                               GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2" visible="false"/>
+                        <Label fx:id="chooseSize" id="chooseSize" text="Change Size (optional)"
+                               GridPane.rowIndex="1" GridPane.columnIndex="0"  GridPane.columnSpan="2" />
+                        <CheckBox fx:id="checkBoxblur" id="blurEffect" text="Blur Effect (optional)"
+                                  GridPane.columnSpan="2" GridPane.rowIndex="2" GridPane.columnIndex="0"
+                                  contentDisplay="RIGHT" onMouseEntered="#blurcheckboxChangColorEnter"
+                                    onMouseExited="#blurcheckboxChangColorExit"/>
+                        <CheckBox fx:id="checkBoxedge" id="edgeEffect" text="Edge Effect (optional)"
+                                  GridPane.columnSpan="2" GridPane.rowIndex="3" GridPane.columnIndex="0"
+                                  contentDisplay="RIGHT" onMouseEntered="#edgecheckboxChangColorEnter"
+                                  onMouseExited="#edgecheckboxChangColorExit"/>
+                        <CheckBox fx:id="checkBoxflip" id="flipEffect" text="Flip Effect (optional)"
+                                  GridPane.columnSpan="2" GridPane.rowIndex="4" GridPane.columnIndex="0" contentDisplay="RIGHT"
+                                  onMouseEntered="#flipcheckboxChangColorEnter" onMouseExited="#flipcheckboxChangColorExit"/>
+                    </GridPane>
+
+                </VBox>
+
+            </HBox>
+
+            <HBox GridPane.columnIndex="0" GridPane.rowIndex="2" spacing="20">
+                <ImageView fitWidth="50" fitHeight="50" >
+                    <Image url="@/image/three.png" />
+                </ImageView>
+                <VBox>
+                <Button id="convertBtn" fx:id="convertBtn" prefHeight="50" prefWidth="200" text="Convert &amp; Save"
+                        GridPane.columnIndex="0" GridPane.rowIndex="2" onAction="#handleConvert"
+                        onMouseEntered="#convertbuttonTextColorEnter" onMouseExited="#convertbuttonTextColorChangeExit">
+                    <graphic>
+                        <ImageView fitHeight="30" fitWidth="30"
+                                   pickOnBounds="true" preserveRatio="true">
+                            <Image url="@/image/1322164.png" />
+                        </ImageView>
+                    </graphic>
+                </Button>
+                    <Label fx:id="notChoose" id="errDisplay" text="upload images first" prefWidth="100"
+                           maxWidth="200" visible="false"/>
+                </VBox>
+            </HBox>
+
+            <columnConstraints>
+                <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+            </rowConstraints>
+        </GridPane>
+        </VBox>
+    </left>
+    <!--end of left section-->
+
+    <!--center section-->
+    <center>
+        <VBox styleClass="content-section" HBox.hgrow="ALWAYS">
+                <Label fx:id="content_header" id="content-header" text="Your Image Gallery" />
+                <GridPane fx:id="gridpane"  vgap="5" hgap="10"/>
+        </VBox>
+    </center>
+    <!--end of center section-->
+
+     <!--bottom section-->
+    <bottom>
+        <HBox id="footer-section">
+                <Label text="Designed By NEU Geniuses: "/>
+                    <Label text=" Meng Zhou">
+                            <graphic>
+                                <ImageView fitHeight="24" fitWidth="24"
+                                           pickOnBounds="true" preserveRatio="true">
+                                        <Image url="@/image/zh.png" />
+                                </ImageView>
+                            </graphic>
+                    </Label>
+                <Label text=" Zhong Liu">
+                    <graphic>
+                        <ImageView fitHeight="24" fitWidth="24"
+                                   pickOnBounds="true" preserveRatio="true">
+                                <Image url="@/image/me.png" />
+                        </ImageView>
+                    </graphic>
+                </Label>
+        </HBox>
+    </bottom>
+    <!--end of bottom section-->
+</BorderPane>
+
